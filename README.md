@@ -7,14 +7,14 @@ Utilize el proceso CRISP-DM https://es.wikipedia.org/wiki/Cross_Industry_Standar
 
 CRISP-DM divide el proceso de minería de datos en seis fases principales:4 
 
-## Comprensión del negocio,
+## Comprensión del negocio
 
 El accidente cerebrovascular es un importante problema de salud pública que conduce a un aumento de la mortalidad. Los factores de riesgo modificables para el accidente cerebrovascular incluyen hipertensión, diabetes, tabaquismo y abuso de alcohol. Entre estos factores de riesgo, la diabetes y la hipertensión van en rápido crecimiento conduciendo a un aumento sustancial de las enfermedades cardiovasculares y los accidentes cerebrovasculares.
 
 El Dataset, obtenido de Kaggle, incluye data sobre diabetes, hipertension y stroke.
 
 
-## Preparación de los datos, 
+## Preparación de los datos
 
 Se codificaron las variables categoricas con OneHotEncoder (por cada categoria un valor de 1) y las numericas se estandarizaron con StandardScaler (z-score). El particionado del dataset se hizo en 80% de entrenamiento y 20% de test (holdout)
 
